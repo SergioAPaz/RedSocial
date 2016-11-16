@@ -1,21 +1,17 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="acerca.aspx.cs" Inherits="SocialNetwork.acerca" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="SocialNetwork.acerca" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="assets/css/Login.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
-
-
-    <div class="container-fluid" style="height:120px;background-color:black;opacity:.6">
-
-        <div>
-            <p class="centrar1">You!</p>
-        </div>
-
+<div class="container-fluid" style="height:120px;background-color:black;opacity:.6">
+    <div>
+        <p class="centrar1">You!</p>
     </div>
+</div>
 
+<br />
 
-    <br />
 <div class="container">
     <div class="row">
         <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -60,8 +56,6 @@
         <h4 class="modal-title" style="color:#fafafa" id="myModalLabel">Vamos registrate!</h4>
       </div>
     <div class="modal-body">
-            
-
         <form class="form-horizontal">
             <fieldset>
 
@@ -124,10 +118,10 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-               <button id="signup" name="signup" class="btn btn-success">Sign Up</button>
+               <button id="signup" name="signup" class="btn btn-success">Listo!</button>
             </div>
             </fieldset>
- 
+  
         </form>
         
     </div>
@@ -135,8 +129,8 @@
   </div>
 </div>
   
-    <br />
-    <br />
- 
-   
+<br />
+<br />
+
+     
 </asp:Content>

@@ -30,3 +30,4 @@ F:\Mis Archivos\Software projects\C#\RedSocial\RedSocial\SocialNetwork\SocialNet
 F:\Mis Archivos\Software projects\C#\RedSocial\RedSocial\SocialNetwork\SocialNetwork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 F:\Mis Archivos\Software projects\C#\RedSocial\RedSocial\SocialNetwork\SocialNetwork\obj\Debug\SocialNetwork.dll
 F:\Mis Archivos\Software projects\C#\RedSocial\RedSocial\SocialNetwork\SocialNetwork\obj\Debug\SocialNetwork.pdb
+F:\Mis Archivos\Software projects\C#\RedSocial\RedSocial\SocialNetwork\SocialNetwork\obj\Debug\SocialNetwork.csprojResolveAssemblyReference.cache

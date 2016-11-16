@@ -13,5 +13,12 @@ namespace SocialNetwork
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            string script = "alert(\"Hello!\");";
+            ScriptManager.RegisterStartupScript(this, GetType(),
+                                  "ServerControlScript", script, true);
+        }
     }
 }
