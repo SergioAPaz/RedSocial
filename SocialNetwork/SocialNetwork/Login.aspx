@@ -19,7 +19,7 @@
             <div class="account-wall">
                 <img class="profile-img" src="http://xacatolicos.com/app/images/avatar/icon-user.png"
                     alt="">
-                <form class="form-signin">
+                <form class="form-signin" >
                 <input type="text" class="form-control" placeholder="Usuario" required autofocus>
                 <br>  
                 <input type="password" class="form-control" placeholder="Contraseña" required>
@@ -31,6 +31,9 @@
                     <p style="margin-left:25px">Recordarme</p>
                 </label>
                 <a href="#" class="pull-right need-help">Need help? </a><span class="clearfix"></span>
+                    <div runat="server">
+                    <asp:Button ID="Button1" runat="server" Text="Button" />
+                        </div>
                 </form>
             </div>
             <a href="#" data-toggle="modal" data-target="#myModal"  class="text-center new-account"> <b>Crea tu propia cuenta</b></a>
@@ -56,7 +59,7 @@
         <h4 class="modal-title" style="color:#fafafa" id="myModalLabel">Vamos registrate!</h4>
       </div>
     <div class="modal-body">
-        <form class="form-horizontal">
+        <form class="form-horizontal" runat="server">
             <fieldset>
 
             
@@ -118,7 +121,8 @@
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
-               <button id="signup" name="signup" class="btn btn-success">Listo!</button>
+               <%--<button id="signup" name="signup" class="btn btn-success">Listo!</button>--%>
+                
             </div>
             </fieldset>
   
